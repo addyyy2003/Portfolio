@@ -30,7 +30,7 @@ function About() {
 </div>
 
             <h2 className="mt-4 text-5xl font-bold text-white">
-              Who I Am
+              Who Am I
             </h2>
 
             <div className="mt-5 h-1 w-20 rounded-full bg-gradient-to-r from-cyan-400 to-purple-500" />
