@@ -50,22 +50,17 @@ function Hero() {
  />
       {/* Container */}
 
-      <div className="relative mx-auto flex min-h-[115vh] max-w-7xl items-center justify-between px-8 pt-24">
-        {/* LEFT SIDE */}
-
-        <div className="max-w-xl">
-          
-          <span className="rounded-full border border-cyan-500/30 bg-cyan-500/10 px-5 py-2 text-cyan-400  ">
-            
-            👋 Hello, I'm
+        <div className="relative mx-auto flex min-h-fit flex-col-reverse items-center justify-center gap-8 px-5 pt-6 pb-4 md:min-h-[115vh] md:max-w-7xl md:flex-row md:items-center md:justify-between md:px-8 md:pt-24 md:pb-20">
+          <span className="inline-flex rounded-full border border-cyan-500/30 bg-cyan-500/10 px-5 py-2 text-sm md:text-base text-cyan-400">
+          🚀 MOBILE TEST
           </span>
-          <h1 className="relative mt-8 text-7xl font-black leading-tight lg:text-8xl">
+          <h1 className="relative mt-8  text-6xl font-black leading-none md:text-7xl lg:text-8xl">
   <span className="text-white">
     Aditya
   </span>
 
   <br />
-  <div className="absolute -left-10 top-10 h-32 w-72 rounded-full bg-cyan-400/20 blur-[90px]" />
+  <div className="absolute left-1/2 top-8 h-28 w-56 -translate-x-1/2 rounded-full bg-cyan-400/20 blur-[90px] md:left-[-40px] md:top-10 md:h-32 md:w-72 md:translate-x-0" />
   <span className="bg-gradient-to-r from-cyan-400 via-sky-400 to-purple-500 bg-clip-text text-transparent">
     
     Yadav
@@ -74,14 +69,14 @@ function Hero() {
 
           
 
-          <h2 className="mt-6 text-3xl font-semibold text-slate-300">
+          <h2  className="mt-6 text-2xl font-semibold text-slate-300 md:text-3xl">
             WordPress Developer &
             <br />
             Full Stack Developer
           </h2>
           <div className="mt-6 h-1 w-32 rounded-full bg-gradient-to-r from-cyan-400 via-sky-500 to-purple-500" />
 
-          <p className="mt-8 max-w-xl text-lg leading-9 text-slate-400">
+          <p className="mx-auto mt-8 max-w-xl text-base leading-8 text-slate-400 md:mx-0 md:text-lg md:leading-9">
   I build high-performance WordPress websites and scalable Full Stack
   applications using React, Node.js, MongoDB and Tailwind CSS,
   focusing on modern UI, SEO and exceptional user experience.
@@ -89,7 +84,7 @@ function Hero() {
           
           {/* Buttons */}
 
-          <div className="mt-10 flex gap-5 hover:-translate-y-1 hover:-translate-y-2 hover:shadow-[0_0_35px_rgba(34,211,238,.45)]">
+          <div className="mt-10 flex flex-col gap-4 sm:flex-row md:justify-start hover:-translate-y-1 hover:-translate-y-2 hover:shadow-[0_0_35px_rgba(34,211,238,.45)]">
 
             <a
               href="#projects"
@@ -112,7 +107,7 @@ hover:-translate-y-2"
 
           {/* Social Icons */}
 
-          <div className="mt-10 flex gap-5">
+          <div className="mt-10 flex justify-center gap-5 md:justify-start">
 
  
             <a
@@ -154,7 +149,7 @@ hover:-translate-y-2"
 
         {/* RIGHT SIDE */}
 
-         <div className="relative flex w-[52%] justify-center -mt-10">
+          <div className="relative mt-12 flex w-full justify-center md:mt-0 md:w-[52%]">
 
           {/* Dot Pattern */}
 
@@ -191,10 +186,7 @@ hover:-translate-y-2"
   src={profile}
   alt="Aditya"
    
-  className="relative z-10 h-[380px] w-[380px] rounded-full border-[5px] border-cyan-400 object-cover shadow-[0_0_120px_rgba(34,211,238,.55)]
-hover:shadow-[0_0_170px_rgba(34,211,238,.8)]
-transition-all
-duration-700"
+ className="relative z-10 h-[220px] w-[220px] rounded-full border-[4px] border-cyan-400 object-cover transition-all duration-700 shadow-[0_0_80px_rgba(34,211,238,.55)] md:h-[380px] md:w-[380px] md:border-[5px] md:shadow-[0_0_120px_rgba(34,211,238,.55)] hover:shadow-[0_0_170px_rgba(34,211,238,.8)]"
 />
 <motion.div
    animate={{
@@ -206,7 +198,7 @@ duration-700"
     repeat: Infinity,
     ease: "linear",
   }}
-  className="absolute h-[430px] w-[430px] rounded-full border border-cyan-400/20 "
+   className="absolute h-[250px] w-[250px] rounded-full border border-cyan-400/20 md:h-[430px] md:w-[430px]"
 />
 <motion.div
   animate={{
@@ -218,7 +210,9 @@ duration-700"
     repeat:Infinity
   }}
   className="absolute h-[450px] w-[450px] rounded-full bg-cyan-400/10 blur-[120px]"
+   ß
 />
+<div className="absolute h-[260px] w-[260px] rounded-full bg-cyan-500/25 blur-[90px] md:h-[470px] md:w-[470px] md:blur-[120px]" />
 
          {/* React */}
 
@@ -361,14 +355,14 @@ duration-700"
   whileInView={{ opacity: 1, y: 0 }}
   viewport={{ once: true }}
   transition={{ duration: 0.8 }}
-  className="relative z-20 mt-6 flex flex-col items-center"
+  className="relative z-20 -mt-12 md:mt-10 flex flex-col items-center"
 >
   {/* Title */}
 
   <div className="mb-10 flex items-center gap-5">
     <div className="h-[2px] w-36 bg-gradient-to-r from-transparent to-cyan-400" />
 
-    <h2 className="text-2xl font-semibold text-slate-300">
+    <h2 className="text-4xl font-semibold text-slate-300">
       Technologies I Work With
     </h2>
 

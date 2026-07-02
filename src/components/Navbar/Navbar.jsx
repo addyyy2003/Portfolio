@@ -1,6 +1,6 @@
  function Navbar() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 border-b border-slate-800/70 bg-[#050816]/80 backdrop-blur-xl">
+    <header className="fixed top-0 left-0 right-0 py-6 md:py-3 z-50 border-b border-slate-800/70 bg-[#050816]/80 backdrop-blur-xl">
       <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between px-8">
 
         {/* Logo */}
