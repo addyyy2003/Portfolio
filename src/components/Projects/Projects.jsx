@@ -1,5 +1,6 @@
  import { motion } from "framer-motion";
  import elevibe from "../../assets/elevibe.png";
+ import spotify from "../../assets/spotify.png";
 function Projects() {
   return (
     <section
@@ -322,6 +323,127 @@ function Projects() {
 
   </div>
 </motion.div>
+
+    {/* ==========================
+      Spotify Clone Project
+========================== */}
+
+<motion.div
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.8 }}
+  whileHover={{ y: -8 }}
+  className="mt-16 overflow-hidden rounded-3xl border border-slate-800 bg-slate-900/60 backdrop-blur-xl shadow-2xl"
+>
+  <div className="grid grid-cols-1 lg:grid-cols-2">
+
+    {/* LEFT CONTENT */}
+
+    <div className="flex flex-col justify-between p-8 md:p-10 order-2 lg:order-1">
+
+      <div>
+
+        <span className="inline-flex rounded-full border border-green-500/30 bg-green-500/10 px-4 py-2 text-sm font-medium text-green-400">
+          🎵 Frontend Project
+        </span>
+
+        <h3 className="mt-6 text-4xl font-bold text-white">
+          Spotify Clone
+        </h3>
+
+        <p className="mt-2 text-lg text-green-400">
+          Music Streaming Web UI
+        </p>
+
+        <div className="my-6 h-px bg-slate-700" />
+
+        <div className="flex flex-wrap items-center gap-3 text-sm">
+
+          <span className="rounded-full bg-slate-800 px-3 py-1 text-slate-300">
+            👨‍💻 Frontend
+          </span>
+
+          <span className="rounded-full bg-slate-800 px-3 py-1 text-slate-300">
+            📅 Personal Project
+          </span>
+
+          <span className="rounded-full bg-slate-800 px-3 py-1 text-slate-300">
+            🎨 Responsive UI
+          </span>
+
+        </div>
+
+        <p className="mt-8 leading-8 text-slate-400">
+          Developed a fully responsive Spotify-inspired music streaming
+          interface using HTML, CSS, JavaScript and Bootstrap. Built a
+          modern UI with interactive navigation, playlists, music cards,
+          responsive layouts and smooth user experience across devices.
+        </p>
+
+        {/* Tech Stack */}
+
+        <div className="mt-8 flex flex-wrap gap-3">
+
+          {[
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "Bootstrap",
+            "Responsive Design",
+          ].map((tech) => (
+            <span
+              key={tech}
+              className="rounded-full border border-green-500/20 bg-green-500/10 px-4 py-2 text-sm text-green-300"
+            >
+              {tech}
+            </span>
+          ))}
+
+        </div>
+
+      </div>
+
+      {/* Buttons */}
+
+      <div className="mt-10 flex flex-wrap gap-4">
+
+        <a
+          href="#"
+          className="rounded-xl bg-green-500 px-6 py-3 font-semibold text-black transition duration-300 hover:scale-105 hover:bg-green-400"
+        >
+          🎵 Live Demo
+        </a>
+
+        <a
+          href="#"
+          className="rounded-xl border border-slate-700 px-6 py-3 text-white transition duration-300 hover:border-green-500 hover:bg-slate-800"
+        >
+          💻 GitHub
+        </a>
+
+      </div>
+
+    </div>
+
+    {/* RIGHT IMAGE */}
+
+    <div className="relative overflow-hidden order-1 lg:order-2 bg-[#08110d]">
+
+      <img
+        src={spotify}
+        alt="Spotify Clone"
+        className="h-full w-full object-cover transition duration-700 hover:scale-105"
+      />
+
+      <div className="absolute inset-0 bg-gradient-to-t from-[#08110d]/40 to-transparent" />
+
+    </div>
+
+  </div>
+</motion.div>
+
+
 
       </div>
     </section>

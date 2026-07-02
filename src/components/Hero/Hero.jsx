@@ -50,9 +50,10 @@ function Hero() {
  />
       {/* Container */}
 
-        <div className="relative mx-auto flex min-h-fit flex-col-reverse items-center justify-center gap-8 px-5 pt-6 pb-4 md:min-h-[115vh] md:max-w-7xl md:flex-row md:items-center md:justify-between md:px-8 md:pt-24 md:pb-20">
+        <div className="relative mx-auto flex min-h-fit flex-col-reverse items-center justify-center gap-4 px-5 pt-2 pb-0 md:min-h-[115vh] md:max-w-7xl md:flex-row md:items-center md:justify-between md:px-8 md:pt-24 md:pb-20">
+          <div className="max-w-xl text-center md:text-left">
           <span className="inline-flex rounded-full border border-cyan-500/30 bg-cyan-500/10 px-5 py-2 text-sm md:text-base text-cyan-400">
-          🚀 MOBILE TEST
+           👋 Hello, I'm
           </span>
           <h1 className="relative mt-8  text-6xl font-black leading-none md:text-7xl lg:text-8xl">
   <span className="text-white">
@@ -146,6 +147,7 @@ hover:-translate-y-2"
           </div>
 
         </div>
+      
 
         {/* RIGHT SIDE */}
 
@@ -210,7 +212,6 @@ hover:-translate-y-2"
     repeat:Infinity
   }}
   className="absolute h-[450px] w-[450px] rounded-full bg-cyan-400/10 blur-[120px]"
-   ß
 />
 <div className="absolute h-[260px] w-[260px] rounded-full bg-cyan-500/25 blur-[90px] md:h-[470px] md:w-[470px] md:blur-[120px]" />
 
@@ -291,6 +292,7 @@ hover:-translate-y-2"
 </motion.div>
 
 {/* Stats Card */}
+ 
 
 <motion.div
   initial={{ opacity: 0, y: 40 }}
@@ -341,13 +343,14 @@ hover:-translate-y-2"
         Satisfaction
       </p>
     </div>
+   
 
   </div>
 </motion.div>
 
-        </div>
 
-      </div>
+        </div>
+         </div>
     {/* Technologies */}
 
 <motion.div
