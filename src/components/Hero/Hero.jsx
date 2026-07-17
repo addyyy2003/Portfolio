@@ -21,7 +21,10 @@ import {
 
 function Hero() {
   return (
-    <section className="relative overflow-hidden bg-[#050816]">
+    <section
+  id="home"
+  className="relative overflow-hidden bg-[#050816]"
+>
        
       {/* Background Glow */}
 

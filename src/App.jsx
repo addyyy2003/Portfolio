@@ -11,6 +11,7 @@ import Experience from "./components/Experience/Experience";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Loader from "./components/Loader/Loader";
+import WhatsAppButton from "./components/WhatsAppButton/WhatsAppButton";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -48,6 +49,7 @@ function App() {
           <Experience />
           <Contact />
           <Footer />
+          <WhatsAppButton />
         </motion.div>
       )}
     </AnimatePresence>
