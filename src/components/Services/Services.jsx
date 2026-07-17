@@ -198,12 +198,6 @@ export default function Services() {
                   ))}
                 </div>
 
-                {/* Button */}
-                <button className="mt-8 flex items-center gap-2 text-cyan-400 font-semibold group-hover:translate-x-2 transition duration-300">
-                  Learn More
-                  <FaArrowRight />
-                </button>
-
               </div>
             </motion.div>
           ))}
