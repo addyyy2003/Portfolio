@@ -33,8 +33,7 @@ function Contact() {
           </h2>
 
           <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-slate-400">
-            Have a project in mind or looking for a WordPress or Full Stack
-            Developer? I'd love to connect.
+            Looking for a modern website or need help with your existing project? I'd love to discuss your ideas and help bring them to life.
           </p>
 
         </motion.div>
@@ -138,7 +137,9 @@ function Contact() {
               </p>
 
               <a
-                href="mailto:yadavaditya71456@gmail.com"
+                href="https://wa.me/919372697218?text=Hi%20Aditya,%20I%20found%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20website%20project."
+                target="_blank"
+                rel="noopener noreferrer"
                 className="mt-10 rounded-xl bg-cyan-400 px-8 py-4 font-semibold text-black transition hover:scale-105 hover:bg-cyan-300"
               >
                 Hire Me →

@@ -179,7 +179,7 @@ function Projects() {
     </p>
 
     <p className="mt-2 font-semibold text-white">
-      ⏱ 2 Weeks
+      ⏱ 1 Weeks
     </p>
   </div>
 

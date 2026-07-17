@@ -71,16 +71,14 @@ function Hero() {
           
 
           <h2  className="mt-6 text-2xl font-semibold text-slate-300 md:text-3xl">
-            WordPress Developer &
+            Helping businesses turn ideas into fast, modern websites that attract customers and drive growth.
             <br />
-            Full Stack Developer
+            
           </h2>
           <div className="mt-6 h-1 w-32 rounded-full bg-gradient-to-r from-cyan-400 via-sky-500 to-purple-500" />
 
           <p className="mx-auto mt-8 max-w-xl text-base leading-8 text-slate-400 md:mx-0 md:text-lg md:leading-9">
-  I build high-performance WordPress websites and scalable Full Stack
-  applications using React, Node.js, MongoDB and Tailwind CSS,
-  focusing on modern UI, SEO and exceptional user experience.
+   I design and develop responsive WordPress websites and React applications that are built for speed, performance, and long-term scalability. Whether you're a startup, agency, or local business, I deliver clean, conversion-focused solutions with transparent communication and reliable support.
 </p>
           
           {/* Buttons */}
@@ -95,13 +93,13 @@ function Hero() {
             </a>
 
             <a
-              href="#contact"
+              href="https://wa.me/919372697218?text=Hi%20Aditya,%20I%20found%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20website%20project."
               className="rounded-xl border border-slate-600 px-8 py-4 text-white transition duration-300 hover:bg-cyan-400
 hover:text-black
 hover:border-cyan-400
 hover:-translate-y-2"
             >
-              Let's Talk →
+             Lets's Discuss →
             </a>
 
           </div>
